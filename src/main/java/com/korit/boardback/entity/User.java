@@ -13,10 +13,10 @@ import java.time.LocalDateTime;
 @Builder
 public class User {
     private int userId;
-    private String userName;
+    private String username;
     private String password;
     private String email;
-    private String nickName;
+    private String nickname;
     private String oAuth2Name;
     private String oAuth2Provider;
     private int accountExpired;
